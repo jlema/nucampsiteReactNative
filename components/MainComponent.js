@@ -146,7 +146,7 @@ const CustomDrawerComponent = props => (
         and camera notch area of the iPhone X
         normally included, but we're overriding the drawer component */}
         <SafeAreaView
-            style={styles.conatiner}
+            style={styles.container}
             forceInset={{ top: 'always', horizontal: 'never' }}>
             <View style={styles.drawerHeader}>
                 {/* flex: 1 indicates that this view is using 1/3 of the space of the drawerHeader view */}
